@@ -58,8 +58,5 @@
     "mime-types": "^2.1.21",
     "percy-client": "^3.0.1",
     "walk": "^2.3.14"
-  },
-  "release": {
-    "publishDir": "lib"
   }
 }
