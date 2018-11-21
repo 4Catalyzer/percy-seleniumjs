@@ -1,6 +1,6 @@
 {
   "name": "percy-seleniumjs",
-  "version": "0.1.0-alpha.2",
+  "version": "0.1.0-alpha.3",
   "description": "Unofficial SeleniumJS SDK for Percy. Works with Protractor too.",
   "main": "lib/index.js",
   "scripts": {
