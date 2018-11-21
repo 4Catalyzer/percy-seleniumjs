@@ -4,7 +4,6 @@
   "description": "Unofficial SeleniumJS SDK for Percy. Works with Protractor too.",
   "main": "lib/index.js",
   "scripts": {
-    "build": "rimraf lib/* && babel src --out-dir lib --delete-dir-on-start",
     "lint": "eslint ."
   },
   "husky": {
@@ -17,6 +16,9 @@
       "eslint --fix",
       "git add"
     ]
+  },
+  "engines": {
+    "node": ">=10.0.0"
   },
   "prettier": {
     "printWidth": 79,
@@ -40,16 +42,10 @@
     "selenium-webdriver": "^3.0.0 || ^4.0.0-alpha"
   },
   "devDependencies": {
-    "@4c/babel-preset-4catalyzer": "^3.1.1",
-    "@babel/cli": "^7.1.2",
-    "@babel/core": "^7.1.6",
-    "@babel/node": "^7.0.0",
     "babel-eslint": "^10.0.1",
-    "babel-loader": "^8.0.4",
     "eslint": "^5.6.1",
     "eslint-config-4catalyzer": "^0.4.4",
     "eslint-config-prettier": "^3.1.0",
-    "eslint-plugin-babel": "^5.2.1",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-prettier": "^3.0.0",
     "husky": "^1.1.0",
