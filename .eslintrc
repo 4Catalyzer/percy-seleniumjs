@@ -1,6 +1,10 @@
 {
   "extends": ["4catalyzer", "prettier"],
   "plugins": ["prettier"],
+  "globals": {
+    "document": false,
+    "window": false
+  },
   "rules": {
     "prettier/prettier": "error"
   }
